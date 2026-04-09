@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && next dev --turbopack",
+    "dev": ". \"$HOME/.nvm/nvm.sh\" && nvm use 24 && next dev --turbopack",
     "dev:vercel": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
