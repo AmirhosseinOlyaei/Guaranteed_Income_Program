@@ -1,0 +1,351 @@
+{
+  "nav": {
+    "home": "Home",
+    "understand": "Understand the Community",
+    "design": "Design Your Program",
+    "engage": "Engage Residents",
+    "administer": "Administer",
+    "payments": "Payment Experience",
+    "coalition": "Build a Coalition",
+    "resources": "Resources",
+    "cta": "Start Your Program",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "keyConsiderations": "Key Considerations",
+    "immigrationNote": "Immigration Status",
+    "culturalNote": "Cultural Lens",
+    "trustNote": "Trust-Building Tip",
+    "languageToggle": "فارسی",
+    "organizedBy": "Organized by",
+    "devArtsLab": "DevArts Lab",
+    "location": "Boston, MA",
+    "copyright": "© 2026 DevArts Lab. All rights reserved.",
+    "tagline": "A resource guide for nonprofits and practitioners serving the Persian-American community.",
+    "adaptedFrom": "Adapted from the Urban Institute's How to Build a Guaranteed Income Program and Coalition.",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "backHome": "Back to Home",
+    "learnMore": "Learn more",
+    "step": "Step"
+  },
+  "home": {
+    "heroTitle": "Building Guaranteed Income for the Persian-American Community",
+    "heroSubtitle": "A practical guide for nonprofits and practitioners to design, launch, and sustain guaranteed income programs tailored to the needs of Persian Americans.",
+    "heroCta": "Explore the Guide",
+    "heroSecondaryLabel": "Learn About Coalitions",
+    "whatIsTitle": "What Is Guaranteed Income?",
+    "whatIsBody": "Guaranteed income is a regular, unconditional cash payment provided directly to individuals or families — no strings attached. Unlike traditional public assistance programs, participants decide how to spend the funds based on their own priorities, whether that means rent, food, childcare, education, or any other need.",
+    "whyPersianTitle": "Why the Persian-American Community?",
+    "whyPersianBody": "Approximately 1.5 million Persian Americans live across the United States, with large concentrations in California, Virginia, Texas, and New York. The community spans a wide range of immigration statuses, economic backgrounds, and cultural experiences. Many face unique barriers to accessing public benefits — from cultural stigma around receiving assistance to complex immigration status questions — making guaranteed income an especially powerful and accessible tool for this population.",
+    "sectionsTitle": "Your Step-by-Step Guide",
+    "sectionsSubtitle": "Six chapters to help you build a culturally grounded, community-trusted program.",
+    "coalitionTitle": "Ready to Build a Coalition?",
+    "coalitionBody": "Amplify your impact by joining or forming a regional coalition of guaranteed income programs. Learn how to share resources, build advocacy capacity, and sustain long-term change together.",
+    "coalitionCta": "Coalition Guide",
+    "sections": [
+      {
+        "number": "01",
+        "title": "Understand the Community",
+        "description": "Learn the demographics, immigration landscape, and economic realities of Persian Americans.",
+        "href": "/understand"
+      },
+      {
+        "number": "02",
+        "title": "Design Your Program",
+        "description": "Set eligibility criteria, payment amounts, duration, and identify target groups.",
+        "href": "/design"
+      },
+      {
+        "number": "03",
+        "title": "Engage Residents",
+        "description": "Use culturally competent outreach to reach and build trust with Persian-American families.",
+        "href": "/engage"
+      },
+      {
+        "number": "04",
+        "title": "Administer the Program",
+        "description": "Manage enrollment, protect participant data, and provide supportive casework.",
+        "href": "/administer"
+      },
+      {
+        "number": "05",
+        "title": "Payment Experience",
+        "description": "Navigate banking barriers and create a smooth, dignified payment process.",
+        "href": "/payments"
+      },
+      {
+        "number": "06",
+        "title": "Build a Coalition",
+        "description": "Form regional partnerships to amplify collective impact across your community.",
+        "href": "/coalition"
+      }
+    ]
+  },
+  "understand": {
+    "title": "Understand the Community",
+    "intro": "Before designing a guaranteed income program, practitioners must understand who Persian Americans are — their history, their legal status diversity, and the cultural values that shape how they engage with public support systems.",
+    "demographics": {
+      "title": "Demographics & Diaspora",
+      "body": "An estimated 1.5 to 2 million people of Iranian and Persian heritage live in the United States. The largest concentrations are in Southern California (particularly the Los Angeles area, sometimes called 'Tehrangeles'), Northern Virginia, Houston, New York, and Boston. Persian Americans represent multiple ethnic, religious, and linguistic communities, including Persian Muslims, Armenian Iranians, Jewish Iranians, Zoroastrian Iranians, and Baha'is.",
+      "waves": "Immigration occurred in several waves: those who left before or immediately after the 1979 Islamic Revolution (often professionals, academics, and political dissidents); refugees during the Iran-Iraq War (1980–1988); and continuing migration through family reunification, asylum, and other pathways. Each wave has distinct economic, educational, and political characteristics."
+    },
+    "economics": {
+      "title": "Economic Realities",
+      "body": "Persian Americans display a bimodal economic distribution. Many are highly educated professionals — engineers, physicians, entrepreneurs — with above-average incomes. However, a significant portion of the community, particularly recent arrivals, asylum seekers, and elderly immigrants, experience financial hardship. Credential recognition barriers, language limitations, and professional licensing challenges can leave skilled individuals underemployed.",
+      "seniors": "Persian-American seniors are an often-overlooked group. Many arrived late in life through family reunification, may not speak English, may not have U.S. work history for Social Security eligibility, and can be financially dependent on family members who themselves may be struggling."
+    },
+    "immigration": {
+      "title": "Immigration Status",
+      "intro": "The Persian-American community includes people across a range of immigration statuses, each with different eligibility considerations for guaranteed income programs.",
+      "asylum": {
+        "label": "Asylum Seekers & Refugees",
+        "body": "Individuals with pending asylum applications or recognized refugee status may participate in guaranteed income programs. Cash received through private GI programs typically does not count as a 'public charge' factor. However, many asylum seekers experience deep anxiety about any government interaction. Programs should clearly communicate that participation is private, voluntary, and will not affect immigration proceedings. Partnering with immigration attorneys for participant questions is strongly recommended."
+      },
+      "greenCard": {
+        "label": "Lawful Permanent Residents (Green Card Holders)",
+        "body": "Green card holders are generally eligible to participate in guaranteed income programs. The primary concern in this population is the federal 'public charge' rule, which evaluates certain public benefits when assessing applications for adjustment of status. However, most private guaranteed income programs are NOT classified as public benefits under the public charge rule. Programs should provide clear written guidance — in Farsi if possible — clarifying this distinction. Legal consultations should be made available."
+      },
+      "citizen": {
+        "label": "Naturalized Citizens & U.S.-Born",
+        "body": "Naturalized Persian Americans and U.S.-born individuals of Persian heritage have no immigration-related barriers to participation. They may, however, still face cultural barriers including stigma and privacy concerns. Programs should not assume that citizen status eliminates all hesitation — trust must still be earned through culturally competent engagement."
+      }
+    },
+    "cultural": {
+      "title": "Cultural Context",
+      "abroo": {
+        "label": "آبرو — Honor and Reputation",
+        "body": "Central to Persian culture is the concept of آبرو (âberu), meaning honor, dignity, and social reputation. Many Persian families would rather endure financial hardship than be seen as needing public assistance, because seeking help can feel like a loss of face for the entire family. Programs must frame guaranteed income not as 'charity' or 'welfare,' but as a recognition of economic injustice and a right — not a favor."
+      },
+      "family": {
+        "label": "Extended Family Dynamics",
+        "body": "Persian culture places enormous importance on family obligations. Before turning to an outside program, many individuals are expected — and may expect themselves — to rely on extended family for financial support. This creates tension when family is unable to help but community members feel shame in admitting it. Peer-to-peer outreach by trusted community members can normalize participation."
+      },
+      "privacy": {
+        "label": "Privacy and Data Concerns",
+        "body": "Many Persian Americans, particularly those who fled authoritarian governance or who have family members in Iran, have a heightened sensitivity to data privacy. The concern that personal financial information could be shared with government immigration agencies is real and valid. Programs must have strong, transparent data privacy policies and must communicate them clearly and repeatedly in participants' preferred language."
+      }
+    }
+  },
+  "design": {
+    "title": "Design Your Program",
+    "intro": "A well-designed guaranteed income program starts with intentional decisions about who you serve, how much you provide, and for how long. Tailoring these decisions to the Persian-American community will maximize reach and impact.",
+    "eligibility": {
+      "title": "Step 1 — Define Eligibility",
+      "body": "Eligibility criteria should reflect the specific needs and vulnerabilities of your target population. Consider income thresholds (e.g., below 80% of Area Median Income), household size, zip codes or neighborhoods with high Persian-American density, and any targeted populations (single parents, seniors, recently arrived immigrants). Avoid criteria that create excessive documentation burdens, which can deter participation among those with complex immigration histories.",
+      "immigration": "For immigration status: clearly define which statuses your program will serve. Many successful programs serve all community members regardless of status. If your program does include undocumented individuals, work with legal counsel to structure the program appropriately and communicate the distinction from government programs."
+    },
+    "amount": {
+      "title": "Step 2 — Set the Payment Amount",
+      "body": "Payment amounts in U.S. pilot programs have ranged from $500 to $1,500 per month. For the Persian-American community, consider the local cost of living (e.g., Los Angeles and Northern Virginia have high housing costs), family size, and whether payments supplement or replace other income. Avoid amounts so high they create anxiety about public charge implications, though again, private GI payments are generally not public benefits.",
+      "recommendation": "A payment of $750–$1,000/month for 12–24 months is a commonly tested range for pilot programs. This amount meaningfully impacts household stability without creating new systemic dependencies."
+    },
+    "duration": {
+      "title": "Step 3 — Determine Duration",
+      "body": "Most guaranteed income pilot programs run for 12 to 24 months. Longer programs provide more sustained data on long-term impacts but require larger funding commitments. For the Persian-American community, a 24-month program is often recommended so that participants have enough time to stabilize, plan, and build savings — especially for families navigating immigration transitions or credential recognition processes that can take years.",
+      "exit": "Build a 'wind-down' plan from the start: notify participants 3–6 months before program end, connect them with long-term services, and conduct exit interviews in their preferred language."
+    },
+    "target": {
+      "title": "Step 4 — Identify Target Groups",
+      "body": "Within the broader Persian-American community, certain groups may benefit most from targeted outreach:",
+      "groups": [
+        "Single mothers and female-headed households",
+        "Elderly immigrants without U.S. Social Security eligibility",
+        "Recent asylum seekers and refugees in the first two years of arrival",
+        "Families with children under 5",
+        "Adults with foreign credentials not yet recognized in the U.S.",
+        "Young adults (18–24) without family financial support networks"
+      ]
+    },
+    "cultural": {
+      "title": "Cultural Design Considerations",
+      "body": "Frame the program in terms of opportunity and dignity, not charity. In outreach materials, use language that aligns with Persian cultural values: investing in family stability, building a foundation for the next generation, and honoring the hard work of immigrants. Avoid language that implies dependency or weakness."
+    }
+  },
+  "engage": {
+    "title": "Engage Residents",
+    "intro": "Effective outreach to Persian Americans requires cultural competency, community trust, and persistent, multilingual communication. Engagement is not a one-time event — it is an ongoing relationship.",
+    "outreach": {
+      "title": "Culturally Competent Outreach",
+      "body": "Partner with organizations already trusted by the Persian-American community: cultural centers, mosques, churches, synagogues (Persian Jewish and Armenian-Iranian communities are significant), Nowruz (Persian New Year) events, and community associations. Outreach should be conducted by Persian-speaking community members whenever possible — familiar faces and voices dramatically increase trust.",
+      "channels": "Use multiple channels: Persian-language media (TV, radio, online), Persian-language community Facebook and Telegram groups, community newsletters, and in-person events at established gathering places. Do not rely solely on digital outreach; many elderly Persian Americans are not active on social media."
+    },
+    "language": {
+      "title": "Language Access",
+      "body": "All program materials — applications, enrollment guides, payment instructions, privacy policies, and FAQs — should be available in Farsi (Persian). Materials should be reviewed by native Farsi speakers and cultural insiders, not just translated by software tools. Pay particular attention to formal vs. colloquial Farsi, as the Persian-American diaspora community has developed its own register that differs from contemporary Iranian Farsi.",
+      "interpretation": "Offer interpretation services for enrollment meetings, intake calls, and follow-up check-ins. Video interpretation services can help where in-person interpreters are not available."
+    },
+    "trust": {
+      "title": "Trust-Building Strategies",
+      "body": "Trust is built through consistency, transparency, and community voice. Involve Persian-American community members in program design from the beginning — not just as recipients but as advisors, navigators, and staff. Host listening sessions before launch and share what you learned and how it shaped the program.",
+      "peers": "Peer navigators — trusted community members who are trained to guide others through the program — are among the most effective trust-building tools. Peer navigators can address cultural hesitations in ways that outsider staff cannot.",
+      "privacy": "Proactively address data privacy in every public communication. Hold a dedicated Q&A session on what data is collected, who has access to it, and what happens to it. Provide a written privacy commitment signed by program leadership."
+    },
+    "stigma": {
+      "title": "Addressing Stigma",
+      "body": "Frame guaranteed income as a community investment, not charity. Emphasize that the program is available to all qualifying members, not just those in the most severe need — this reduces stigma by universalizing participation. Testimonials from respected community members who have participated can powerfully normalize the program. Ensure testimonials are in Farsi where possible."
+    }
+  },
+  "administer": {
+    "title": "Administer the Program",
+    "intro": "Strong program administration ensures participant dignity, data security, and equitable access. For the Persian-American community, administration should be flexible, culturally informed, and available in Farsi.",
+    "enrollment": {
+      "title": "Enrollment Process",
+      "body": "Design enrollment to be as low-barrier as possible. Offer multiple enrollment pathways: online application in both English and Farsi, in-person enrollment at trusted community locations (cultural centers, libraries), and phone enrollment with Farsi-speaking staff. Limit required documentation to the minimum needed — overly burdensome documentation requirements disproportionately deter immigrant and low-income families.",
+      "selection": "If you have more qualified applicants than available slots, use a random lottery rather than first-come-first-served, which disadvantages those with less access to information or digital tools."
+    },
+    "privacy": {
+      "title": "Data Privacy and Security",
+      "body": "Data privacy is not just a legal compliance requirement — for the Persian-American community, it is a foundational trust issue. Implement robust data security practices: encrypt all participant data, limit staff access on a need-to-know basis, and never share participant information with immigration authorities under any circumstances (with the sole exception of a valid court order).",
+      "policy": "Publish your data privacy policy in both English and Farsi. Make it plain-language, not legalese. Explain specifically: what data you collect, why, who can see it, how long you keep it, and how participants can request deletion. Revisit and reaffirm your privacy commitment at every participant touchpoint."
+    },
+    "casework": {
+      "title": "Casework and Support",
+      "body": "Offer optional, light-touch casework support — not as a condition of receiving payments, but as an available resource. Persian-American participants may benefit from connections to: immigration legal services, credential recognition assistance, ESL programs, mental health services (culturally competent), business development resources (given high entrepreneurship rates in the community), and financial literacy in Farsi.",
+      "dignity": "All casework interactions should center participant dignity and choice. Guaranteed income is unconditional — do not attach requirements to how funds are spent, and do not use casework as surveillance."
+    },
+    "staff": {
+      "title": "Staff Training",
+      "body": "Train all program staff on Persian-American cultural values and communication norms: the importance of formality and respect in initial interactions, the cultural sensitivity around discussing finances, the diversity within the community (there is no single 'Persian American' experience), and the trauma many participants may carry from immigration journeys or political persecution. Hire Persian-speaking staff or volunteers whenever possible."
+    }
+  },
+  "payments": {
+    "title": "Payment Experience",
+    "intro": "The payment experience — how funds are delivered and received — is as important as the program design itself. A smooth, dignified payment process reinforces participant trust and reduces attrition.",
+    "banking": {
+      "title": "Banking Barriers",
+      "body": "A meaningful subset of the Persian-American community, particularly recent arrivals and elderly immigrants, may be unbanked or underbanked. Reasons include lack of credit history in the U.S., language barriers at financial institutions, distrust of banks from prior country experiences, and documentation requirements that can deter those with uncertain immigration status.",
+      "solutions": "Programs should offer multiple payment options: direct deposit to a bank or credit union account, prepaid debit cards (such as Visa or Mastercard prepaid cards), payment apps accepted by unbanked individuals (such as PayPal or CashApp with ID verification), and in some cases, check disbursement. Partner with community development financial institutions (CDFIs) or credit unions that serve immigrant communities and offer low-barrier account opening."
+    },
+    "dignity": {
+      "title": "Dignity in Payments",
+      "body": "The manner in which payments are made matters. Ensure that the payment experience does not feel bureaucratic, stigmatizing, or surveillance-oriented. Debit cards or direct deposits are generally preferred over check cashing services, which can be inconvenient and sometimes associated with predatory fees.",
+      "communication": "Notify participants of upcoming payments in advance via their preferred communication channel (text, email, or phone call in Farsi). Make it easy to report payment issues without having to navigate complicated bureaucratic processes."
+    },
+    "financial": {
+      "title": "Financial Inclusion",
+      "body": "Use the payment relationship as an opportunity to promote financial inclusion. Offer voluntary financial literacy workshops in Farsi covering budgeting, savings, credit building, and navigating U.S. banking. Partner with a CDFI or community bank to offer participants a pathway to open a first bank account with no credit requirements.",
+      "benefits": "Ensure participants are aware of other benefits they may be eligible for — such as the Earned Income Tax Credit (EITC), Child Tax Credit, and SNAP — that can complement guaranteed income without compromising their immigration status."
+    },
+    "reporting": {
+      "title": "Tax and Reporting Implications",
+      "body": "Guaranteed income payments may be taxable income depending on program structure. Consult with tax professionals and provide participants with clear guidance — in Farsi — on how to report payments on their tax returns. Offer free tax preparation assistance through VITA (Volunteer Income Tax Assistance) or partner organizations."
+    }
+  },
+  "coalition": {
+    "title": "Build a Coalition",
+    "intro": "A guaranteed income coalition amplifies individual program impact by pooling resources, sharing learning, building collective advocacy, and creating a more powerful voice for policy change.",
+    "why": {
+      "title": "Why Build a Coalition?",
+      "body": "Single programs, however well-run, have limited scale and advocacy power. A coalition of organizations running guaranteed income programs for Persian Americans — and potentially with adjacent communities — can share data, reduce administrative overhead, and speak with one voice to funders and policymakers. Coalitions also enable shared learning: what works in Los Angeles may inform approaches in Boston or Houston."
+    },
+    "forming": {
+      "title": "Forming the Coalition",
+      "body": "Begin with a landscape scan of organizations already working with Persian Americans or running cash transfer programs in your region. Host an initial convening — ideally in-person — to share goals and assess alignment. Be inclusive: invite faith organizations, legal aid providers, social service agencies, and community associations, not just established nonprofits.",
+      "leadership": "Identify shared leadership: a steering committee with rotating co-chairs from member organizations ensures no single organization dominates. Establish clear governance from the start — decision-making processes, meeting cadences, and conflict resolution protocols."
+    },
+    "structure": {
+      "title": "Coalition Structure",
+      "body": "Effective coalitions balance shared infrastructure with member autonomy. Consider a 'hub and spoke' model: a backbone organization provides administrative support, data infrastructure, and communications, while member programs operate independently with their own participants.",
+      "agreements": "Draft a Memorandum of Understanding (MOU) that outlines: shared data standards and privacy commitments, resource sharing protocols, joint advocacy positions, and dispute resolution. Review the MOU annually."
+    },
+    "impact": {
+      "title": "Collective Impact",
+      "body": "Use the coalition to build a shared evidence base. Aggregate anonymized data across programs to demonstrate community-level impact — financial stability, housing security, employment outcomes, and wellbeing. This shared evidence is far more persuasive to funders and legislators than any single program's data.",
+      "advocacy": "Advocate together for policy changes that benefit Persian Americans and other immigrant communities: expansion of the Earned Income Tax Credit to immigrant taxpayers, public charge rule reform, state-level guaranteed income legislation, and increased federal funding for refugee resettlement and integration."
+    },
+    "national": {
+      "title": "Connect with National Networks",
+      "body": "Strengthen your coalition by connecting with national guaranteed income networks, including Mayors for a Guaranteed Income, the Economic Security Project, and Guaranteed Income Community of Practice. These networks offer technical assistance, shared learning, and advocacy resources that can accelerate your work."
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "intro": "A curated collection of tools, research, and organizations to support your guaranteed income program and coalition-building work.",
+    "programs": {
+      "title": "National Guaranteed Income Programs",
+      "items": [
+        {
+          "name": "Stockton SEED (CA)",
+          "description": "One of the nation's first major GI pilots; comprehensive research base available.",
+          "url": "https://www.stocktondemonstration.org"
+        },
+        {
+          "name": "Mayors for a Guaranteed Income",
+          "description": "National network of mayors committed to GI; resources, research, and advocacy tools.",
+          "url": "https://www.mayorsforagi.org"
+        },
+        {
+          "name": "Economic Security Project",
+          "description": "Research, policy advocacy, and program support for GI and cash-based safety nets.",
+          "url": "https://www.economicsecurityproject.org"
+        },
+        {
+          "name": "Urban Institute GI Guide",
+          "description": "The foundational guide this resource adapts for the Persian-American community.",
+          "url": "https://www.urban.org/apps/how-build-guaranteed-income-program-and-coalition"
+        }
+      ]
+    },
+    "legal": {
+      "title": "Legal Aid & Immigration Resources",
+      "items": [
+        {
+          "name": "CLINIC — Catholic Legal Immigration Network",
+          "description": "Comprehensive immigration legal services network with regional affiliates.",
+          "url": "https://cliniclegal.org"
+        },
+        {
+          "name": "National Immigration Law Center",
+          "description": "Policy and advocacy for immigrant rights; public charge rule guidance.",
+          "url": "https://www.nilc.org"
+        },
+        {
+          "name": "Public Charge Rule Resources (NILC)",
+          "description": "Clear guidance on what does and does not affect public charge determination.",
+          "url": "https://www.nilc.org/issues/economic-support/pubcharge"
+        }
+      ]
+    },
+    "research": {
+      "title": "Research & Toolkits",
+      "items": [
+        {
+          "name": "Guaranteed Income Pilots Dashboard",
+          "description": "Comprehensive database of GI pilots across the U.S. with outcomes data.",
+          "url": "https://gicp.info"
+        },
+        {
+          "name": "Stanford Basic Income Lab",
+          "description": "Academic research on basic and guaranteed income programs globally.",
+          "url": "https://basicincome.stanford.edu"
+        },
+        {
+          "name": "Aspen Institute Financial Security Program",
+          "description": "Research and policy on financial security, including GI and cash transfers.",
+          "url": "https://www.aspeninstitute.org/programs/financial-security-program"
+        }
+      ]
+    },
+    "partners": {
+      "title": "Persian-American Partner Organizations",
+      "comingSoon": true,
+      "comingSoonLabel": "Coming Soon",
+      "comingSoonBody": "This section is reserved for Persian-American community organizations, cultural centers, legal aid providers, and advocacy groups that partner with or support guaranteed income programs. Partner listings will be added as relationships are formalized.",
+      "placeholders": [
+        "Persian-American community organizations",
+        "Iranian cultural centers",
+        "Persian-language media partners",
+        "Faith community partners",
+        "Legal aid organizations serving the Persian community",
+        "Persian-American professional associations"
+      ]
+    },
+    "devarts": {
+      "title": "About DevArts Lab",
+      "body": "This guide was developed by DevArts Lab, a Boston, MA-based organization focused on civic technology and community empowerment. DevArts Lab builds digital tools that help communities access resources, understand their rights, and participate fully in civic life.",
+      "contact": "For more information or to partner with us, contact DevArts Lab at Boston, MA."
+    }
+  }
+}

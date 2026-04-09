@@ -1,27 +1,35 @@
 {
-  "name": "gip-build",
+  "name": "guaranteed-income-persian-americans",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next dev --turbopack",
+    "build": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next build",
+    "start": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next start",
+    "lint": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next lint"
   },
   "dependencies": {
+    "@fontsource/vazirmatn": "^5.2.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "next": "15.3.5",
+    "next-intl": "^4.9.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Guaranteed Income for Persian Americans
+
+A static informational guide for nonprofits and practitioners building guaranteed income programs for the Persian-American community.
+
+Organized by **DevArts Lab, Boston MA** — adapted from the [Urban Institute's Guaranteed Income Guide](https://www.urban.org/apps/how-build-guaranteed-income-program-and-coalition).
+
+## Tech Stack
+
+- **Next.js 15.3.5** (App Router, Turbopack)
+- **TypeScript**
+- **Tailwind CSS v4**
+- **next-intl v4** — bilingual EN + FA with RTL support
+- **Vazirmatn** — Farsi font (via @fontsource)
+- **Lucide React** — icons
+- **shadcn/ui** — UI primitives
+
+## Prerequisites
+
+Node.js **v22 LTS** is required (Next.js 15 is incompatible with Node.js v25+):
+
+```bash
+nvm install 22
+nvm use 22
+```
+
+An `.nvmrc` file is included so `nvm use` will pick the correct version automatically.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) — the app redirects to `/en` (English) by default.
+Switch to Farsi at [http://localhost:3000/fa](http://localhost:3000/fa).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Site Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Route                  | Description                                                           |
+| ---------------------- | --------------------------------------------------------------------- |
+| `/[locale]`            | Home page — hero, section cards, coalition CTA                        |
+| `/[locale]/understand` | Step 1 — Community demographics, immigration status, cultural context |
+| `/[locale]/design`     | Step 2 — Eligibility, amounts, duration, target groups                |
+| `/[locale]/engage`     | Step 3 — Outreach, language access, trust-building                    |
+| `/[locale]/administer` | Step 4 — Enrollment, data privacy, casework                           |
+| `/[locale]/payments`   | Step 5 — Banking barriers, dignity, financial inclusion               |
+| `/[locale]/coalition`  | Step 6 — Coalition formation and advocacy                             |
+| `/[locale]/resources`  | External resources and partner placeholder                            |
 
-## Learn More
+Locales: `en` (LTR) and `fa` (RTL).
 
-To learn more about Next.js, take a look at the following resources:
+## Content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All content lives in `messages/en.json` and `messages/fa.json`. Farsi content is fully authored (not placeholder).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Callout Box Types
 
-## Deploy on Vercel
+Pages use four callout box variants to highlight community-specific guidance:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `immigration` — immigration status nuances (asylum, green card, citizen)
+- `cultural` — cultural values (آبرو, family dynamics)
+- `trust` — trust-building strategies
+- `info` — general key considerations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy
+
+```bash
+npm run build
+```
+
+For static export, add `output: 'export'` to `next.config.ts` (middleware-based i18n requires a server — use Vercel for full i18n support).
