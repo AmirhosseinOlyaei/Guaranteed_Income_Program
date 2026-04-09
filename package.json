@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && next dev --turbopack",
+    "dev:vercel": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,7 +16,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",
-    "next": "15.3.5",
+    "next": "^16.2.3",
     "next-intl": "^4.9.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
