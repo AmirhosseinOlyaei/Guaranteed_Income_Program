@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next dev --turbopack",
-    "build": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next build",
-    "start": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next start",
-    "lint": ". \"$HOME/.nvm/nvm.sh\" && nvm use 22 && node node_modules/next/dist/bin/next lint"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@fontsource/vazirmatn": "^5.2.8",
